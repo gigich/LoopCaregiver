@@ -6,6 +6,7 @@ on:
      # actually, ~5 minutes is the highest
      # effective frequency you will get
     - cron:  '55 * * * *'
+  workflow_dispatch: # on button click
 jobs:
   merge:
     runs-on: ubuntu-latest
